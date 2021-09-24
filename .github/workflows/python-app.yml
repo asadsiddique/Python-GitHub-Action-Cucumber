@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  behave-run:
 
     runs-on: ubuntu-latest
 
