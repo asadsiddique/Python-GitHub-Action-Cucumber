@@ -1,6 +1,4 @@
-from behave   import given, when, then
-#from hamcrest import assert_that, equal_to
-from blender  import Blender
+from behave import given, then, when
 
 @given('I put "{thing}" in a blender')
 def step_given_put_thing_into_blender(context, thing):
