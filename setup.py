@@ -25,7 +25,7 @@ setup(
     long_description=read_file('README.rst'),
     long_description_content_type='text/markdown',
     author_email='SupportEPMC-TSTReportPortal@epam.com',
-    url='https://github.com/reportportal/agent-python-behave',
+    url='https://github.com/asadsiddique/Python-GitHub-Action-Cucumber',
     packages=['behave_reportportal'],
     python_requires='>=3.6',
     install_requires=read_file('requirements.txt').splitlines(),
