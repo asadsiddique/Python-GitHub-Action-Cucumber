@@ -12,7 +12,7 @@ check_fmt:
 	black --check $(SOURCES) -l 79
 
 lint:
-	flake8 $(SOURCES)
+	#flake8 $(SOURCES)
 	pycodestyle $(SOURCES)
 
 pydoc:
