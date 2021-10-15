@@ -8,11 +8,11 @@ tools:
 	pip install -r requirements-dev.txt
 
 check_fmt:
-	isort -c $(SOURCES)
+	#isort -c $(SOURCES)
 	black --check $(SOURCES) -l 79
 
 lint:
-	#flake8 $(SOURCES)
+	flake8 $(SOURCES)
 	pycodestyle $(SOURCES)
 
 pydoc:
