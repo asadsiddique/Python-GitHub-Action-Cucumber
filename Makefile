@@ -7,9 +7,9 @@ check: check_fmt lint pydoc tests
 tools:
 	pip install -r requirements-dev.txt
 
-check_fmt:
+#check_fmt:
 	#isort -c $(SOURCES)
-	black --check $(SOURCES) -l 79
+#	black --check $(SOURCES) -l 79
 
 lint:
 	flake8 $(SOURCES)
